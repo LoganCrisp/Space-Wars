@@ -6,7 +6,7 @@ pygame.mixer.init()
 
 WIDTH, HEIGHT = 900, 500
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("DA GAME")
+pygame.display.set_caption("Space Wars")
 BORDER = pygame.Rect(WIDTH//2 - 5, 0,10,HEIGHT)
 
 HEALTH_FONT = pygame.font.SysFont('comicsans', 40)
